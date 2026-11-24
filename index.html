@@ -93,6 +93,7 @@
   .socio .foto{aspect-ratio:4/5;background:#E4E7EC;border:1px dashed #AEB5C2;display:flex;align-items:center;justify-content:center;color:var(--gris);font-size:14px;margin-bottom:22px;text-align:center;padding:20px}
   .socio .cargo{font-size:15px;color:var(--gris);margin:0 0 14px}
   .socio p{font-family:var(--serif);margin:0 0 12px;color:#2A3550}
+  .socio .retrato{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;margin-bottom:22px;background:#E4E7EC}
   .pendiente{background:#FFF4CC;padding:1px 4px}
 
   /* Red de aliados */
@@ -123,7 +124,7 @@
     .materia{grid-template-columns:1fr;gap:18px}
     .pasos{grid-template-columns:1fr;gap:30px}
     .socios{grid-template-columns:1fr}
-    .socio .foto{max-width:320px}
+    .socio .foto,.socio .retrato{max-width:320px}
     .datos{grid-template-columns:1fr}
     section{padding:72px 0}
   }
@@ -269,10 +270,11 @@
           <p><span class="pendiente">Por completar: universidad de licenciatura, posgrados, años de práctica, cátedras.</span></p>
         </article>
         <article class="socio">
-          <div class="foto">Fotografía de Nora<br>(retrato vertical)</div>
+          <img class="retrato" src="fotos/nora.jpg" width="800" height="1000" alt="Nora Hipólito, socia de (L)EGAL" loading="lazy">
           <h3>Nora Hipólito</h3>
-          <p class="cargo">Socia · <span class="pendiente">Por completar: materias</span></p>
-          <p><span class="pendiente">Por completar: semblanza breve de Nora (formación, experiencia, materias que lleva).</span></p>
+          <p class="cargo">Socia · Derecho familiar y penal</p>
+          <p>Abogada con práctica en derecho familiar y penal. Maestra en Derecho Fiscal.</p>
+          <p><span class="pendiente">Por completar: universidad, años de práctica y lo que Nora quiera destacar.</span></p>
         </article>
       </div>
     </div>
